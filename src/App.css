@@ -75,25 +75,3 @@
 
     }
 }
-/*
-@keyframes navBarAnimation{
-    0%{content: "";}
-    10%{content: "faces";}
-    20%{content: "faces detector";}
-    30%{content: "faces detector for";}
-    40%{content: "faces detector for age ";}
-    60%{content: "faces detector for age estimator";}
-    70%{content: "";}
-}
-
-@keyframes animation{
-    0%{width: 0%}
-    9%{width: 6%;}
-    19%{width: 13%;}
-    39%{width: 17%;}
-    59%{width: 20%;}
-    79%{width: 19%;}
-    100%{width: 0%;}
-}
-
-*/
