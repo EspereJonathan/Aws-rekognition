@@ -1,0 +1,99 @@
+.ici{
+    display: flex;
+    justify-content: flex-start;
+}
+#fileToUpload{
+    top: 0;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    display: none
+}img{
+    width: 100%;
+    border-radius: 20px;
+}
+.photo{
+    margin-left: 20px;
+    position: relative;
+    width: 40%;
+    min-width: 100px;
+}
+.env{
+    border: 2px solid white;
+    width: 20%;
+    height: 20%;
+}
+.cadre{    	
+
+    width: var(--width);
+    height: var(--height);
+    top: var(--top);
+    left: var(--left);
+    position: absolute;
+    z-index: 10;
+}
+.file{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.files{
+    font-weight: black;
+    font-size: clamp(10px, 2vw, 40px);
+    padding: 1%;
+    text-transform: uppercase;
+    width: 20%;
+    text-align: center;
+    margin: 5%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.files:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+.navBar{
+    position: absolute;
+    top: 3%;
+    padding-left: 0.6%;
+    width: 20%;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+
+}
+.text:after{
+    content: "";
+    text-transform: uppercase;
+}
+
+@media (max-width:550px) {
+    .ici{
+        flex-wrap: wrap;
+
+    }
+}
+/*
+@keyframes navBarAnimation{
+    0%{content: "";}
+    10%{content: "faces";}
+    20%{content: "faces detector";}
+    30%{content: "faces detector for";}
+    40%{content: "faces detector for age ";}
+    60%{content: "faces detector for age estimator";}
+    70%{content: "";}
+}
+
+@keyframes animation{
+    0%{width: 0%}
+    9%{width: 6%;}
+    19%{width: 13%;}
+    39%{width: 17%;}
+    59%{width: 20%;}
+    79%{width: 19%;}
+    100%{width: 0%;}
+}
+
+*/

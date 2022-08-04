@@ -1,0 +1,26 @@
+:root{
+  --width: 0;
+  --height: 0;
+  --top: 0;
+  --left: 0;
+}
+
+body {
+  background: linear-gradient(45deg, #181020,  #181020);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  font-size: clamp(5px, 1vw, 30px);
+  overflow: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

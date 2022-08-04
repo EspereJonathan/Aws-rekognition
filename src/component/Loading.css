@@ -1,0 +1,53 @@
+.loadingContainer{
+    display: flex;
+    justify-content: start;
+    width: auto;
+    height: auto;
+}
+.image, .information{
+    margin:2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.information{
+    width: 80%;
+    height: 20vw;
+}
+.image{
+    width: 30%;
+    height: 20vw;
+}
+.label{
+    font-weight: bold;
+    font-size: clamp(10px, 2vw, 40px);
+    color: #424242;
+    overflow: hidden;
+    
+}
+.label::after{
+    content: "";
+    animation: load 2s steps(3) infinite;
+}
+/*
+
+@keyframes load{
+    0%  { content:""}
+    40% { content: "."}
+    60% { content:". ."}
+    80%, 100%{ content: ". . ."}
+
+}
+@keyframes anim{
+    0%  { background-color:gray;}
+    25% { background-color:#BDBDBD; }
+    50% { background-color:gray;}
+    75% { background-color:#BDBDBD;}
+    100%{ background-color:gray;}
+}
+*/
+@media (max-width:550px) {
+    .loadingContainer{
+        flex-wrap: wrap;
+    }
+}
